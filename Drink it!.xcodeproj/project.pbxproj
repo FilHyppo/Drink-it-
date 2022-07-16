@@ -16,7 +16,7 @@
 		CD847B8B287CCD45006005CC /* Drink_it_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD847B8A287CCD45006005CC /* Drink_it_Tests.swift */; };
 		CD847B95287CCD45006005CC /* Drink_it_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD847B94287CCD45006005CC /* Drink_it_UITests.swift */; };
 		CD847B97287CCD45006005CC /* Drink_it_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD847B96287CCD45006005CC /* Drink_it_UITestsLaunchTests.swift */; };
-		CD847BA4287CD395006005CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD847BA3287CD395006005CC /* Main.storyboard */; };
+		CDA2B71628821D2200B984FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA2B71528821D2200B984FB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,8 @@
 		CD847B90287CCD45006005CC /* Drink it!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drink it!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD847B94287CCD45006005CC /* Drink_it_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink_it_UITests.swift; sourceTree = "<group>"; };
 		CD847B96287CCD45006005CC /* Drink_it_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink_it_UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CD847BA3287CD395006005CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Main.storyboard"; sourceTree = "<group>"; };
+		CDA2B7142882197A00B984FB /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CDA2B71528821D2200B984FB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +105,7 @@
 				CD847B70287CCD44006005CC /* AppDelegate.swift */,
 				CD847B72287CCD44006005CC /* SceneDelegate.swift */,
 				CD847B74287CCD44006005CC /* ContainerViewController.swift */,
-				CD847BA3287CD395006005CC /* Main.storyboard */,
+				CDA2B7142882197A00B984FB /* Main.storyboard */,
 				CD847B7C287CCD45006005CC /* Assets.xcassets */,
 				CD847B7E287CCD45006005CC /* LaunchScreen.storyboard */,
 				CD847B81287CCD45006005CC /* Info.plist */,
@@ -126,6 +127,7 @@
 			children = (
 				CD847B94287CCD45006005CC /* Drink_it_UITests.swift */,
 				CD847B96287CCD45006005CC /* Drink_it_UITestsLaunchTests.swift */,
+				CDA2B71528821D2200B984FB /* Main.storyboard */,
 			);
 			path = "Drink it!UITests";
 			sourceTree = "<group>";
@@ -234,7 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD847BA4287CD395006005CC /* Main.storyboard in Resources */,
+				CDA2B71628821D2200B984FB /* Main.storyboard in Resources */,
 				CD847B80287CCD45006005CC /* LaunchScreen.storyboard in Resources */,
 				CD847B7D287CCD45006005CC /* Assets.xcassets in Resources */,
 			);
